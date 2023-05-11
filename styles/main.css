@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300;400&display=swap";
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Castoro+Titling&family=Noto+Serif+Display&display=swap");
 h1 {
   font-size: 3.5 rem;
 }
@@ -7,16 +7,69 @@ h2 {
   font-size: 2.5 rem;
 }
 
-h3 {
-  font-size: 2rem;
-}
-
 p, li, a, button {
   font-size: 1rem;
 }
-body{
-  background-color: red;
-}
-p {
+
+body {
+  display: flex;
+  flex-direction: column;
   font-family: "Noto Serif Display", serif;
+  width: 100%;
+}
+body section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(251, 247, 244);
+  height: 1.8rem;
+}
+body header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+  background-color: white;
+}
+body header div:nth-child(2) {
+  font-family: "Bodoni Moda", serif;
+  font-size: 2rem;
+  padding-right: 9%;
+}
+body header a {
+  text-decoration: none;
+  color: black;
+}
+body header div a {
+  padding: 5px;
+}
+body:last-child {
+  background-color: rgb(251, 247, 244);
+}
+body:last-child img:first-of-type {
+  position: absolute;
+  width: 45%;
+  height: 95vh;
+}
+body:last-child h1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  height: 40vh;
+  position: relative;
+  left: 60%;
+}
+body:last-child h3 {
+  font-size: 1.2rem;
+  position: relative;
+  left: 50%;
+  width: 40%;
+  bottom: 8rem;
+}
+body:last-child img:last-of-type {
+  position: relative;
+  width: 50%;
+  left: 40%;
+  bottom: 5rem;
 }/*# sourceMappingURL=main.css.map */
