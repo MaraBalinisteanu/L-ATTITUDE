@@ -1,4 +1,12 @@
 @import 'colors';
 @import 'spacings';
 @import 'typography';
-// @import 'fonts';
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300;400&display=swap');
+
+p{
+    font-family: 'Noto Serif Display', serif;
+}
